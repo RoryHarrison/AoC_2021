@@ -1,0 +1,1 @@
+/home/rpwh/rust-projects/AoC/aoc_2021_05_example/target/debug/aoc_2021_05_example: /home/rpwh/rust-projects/AoC/aoc_2021_05_example/inputs/day5.txt /home/rpwh/rust-projects/AoC/aoc_2021_05_example/inputs/example.txt /home/rpwh/rust-projects/AoC/aoc_2021_05_example/src/main.rs
