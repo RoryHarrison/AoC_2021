@@ -1,0 +1,116 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .gitignore
+	new file:   aoc_2021_06/input.txt
+	modified:   aoc_2021_06/src/main.rs
+	modified:   aoc_2021_06/target/.rustc_info.json
+	modified:   aoc_2021_06/target/debug/aoc_2021_06
+	modified:   aoc_2021_06/target/debug/deps/aoc_2021_06-f24f47af78ad6c4e
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd6osotrei-10epauv-3jr2ij17lwp0d/dep-graph.bin
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd6osotrei-10epauv-3jr2ij17lwp0d/query-cache.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd8lvqth9b-3dnwcz-3thczbbzvt4vm/dep-graph.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd8lvqth9b-3dnwcz-3thczbbzvt4vm/query-cache.bin
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd6osotrei-10epauv-3jr2ij17lwp0d/work-products.bin -> aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd8lvqth9b-3dnwcz-3thczbbzvt4vm/work-products.bin
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd6osotrei-10epauv.lock -> aoc_2021_06/target/debug/incremental/aoc_2021_06-2cd8bfxtx46yx/s-gd8lvqth9b-3dnwcz.lock
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/2xs2meamdyzxzbgw.o
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/4i8wbdqnwluu5w9n.o
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/dep-graph.bin
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/query-cache.bin
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/work-products.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/10r5xnvcbauq37q5.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/113jrhxd8pxdqqxk.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/19504951x3dzevlu.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/19f9tmm9ccw14gmj.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1ahv2kt7la6laz0g.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1bb8azhazisd3key.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1cnsmdfzl5gwkw6p.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/1csjzb8r3ps4zibg.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1csjzb8r3ps4zibg.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/1fc5dr3ift615noa.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1fc5dr3ift615noa.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1g00uw472dvxaz8r.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1hmezbng8258abz8.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1ilvpnxxs7902rqt.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1l3icxn6mugmfuoa.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1rhl8aei7n0sef2q.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/1s0o26kx5wshuh05.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/21mz5p6uawswnfrk.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/250w3q6vnxzjpyor.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/26mz1208q2du6782.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/29751bugbjv5fjuc.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2bywi5t7lek8klms.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2fendws921e4dtfw.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2hnf552lv9tne6ek.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2hsisnz8k8vgm1p2.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2vh4zoridk99kyyi.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2vryjgughsr1cezk.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2wy8jz1brwz61qce.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2xs2meamdyzxzbgw.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/2yfwqt2wlllp0p3f.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2yfwqt2wlllp0p3f.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2yqjl622lozv5cr3.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/2yv13u5seghl8ymw.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/33imriu7tdoyi0jb.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/357jzedt7y0weqni.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/35c2ipyiagkwo2ex.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/35cz2lwxse46zl5i.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/36ufi5scd5ve7u2m.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/3bvwph35kw3vw16v.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3bvwph35kw3vw16v.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3l7wghl95mqr9ysa.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3ljdgmal3449m64z.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3nt9tvidmyx8ptor.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3oh8p08k6wk0gbvh.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3p378v9f1jalf4p8.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3s0ob7cizxi7h64e.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3t53w9lj5532m2i9.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3towjp3hmumy51vs.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/3whshp9gum0dfx46.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/411ud4kh173nqxgm.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/411ud4kh173nqxgm.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/43q2qihm62iobocg.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/47fg54486d53k9cd.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4bcgyh4k6rb76vxj.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4i8wbdqnwluu5w9n.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4m3dz3lltq4tsdql.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4nzazpp4ul8oendr.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4pe59qm41jacsaeb.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4sov8xxd2o78bvfq.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4suq5k4q5wq8azsh.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4tt2582h7dbk9k5l.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4vhj0lvey9magn4u.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4viu5q6p0qwrc3bc.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/4zuxijots8z8xuzc.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/530mv7q24g3dqz56.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/58wh6qs9dv51ei3e.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/5bjf6xmuhgqyb8ui.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/5c56251gw4tqh685.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/5ew3ujdftfttvhj0.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/5fiamrqd4f0azmfa.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/5i0ojp4m5uldnfi.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/6srgvet578hcpnc.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/7mbzfdwql96o50q.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/dep-graph.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/eahr91yk7jvj2ox.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/g65697i2748wo5g.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/hft6lxu7iu07k80.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/hlczfsdy9b5irgk.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/mhsidqwsao161k7.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/mpl95n2ewzrmgjy.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/o1cfy6cg0ok9fbc.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/o3svvhotomnt0tw.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/piekrz7h4co9710.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/query-cache.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/qvc9mi0lb4q4hhy.o
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf-ipnzavozmui0/wmc4f4jzetzhhzx.o -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/wmc4f4jzetzhhzx.o
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0-2wwoxeyohxjq6/work-products.bin
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6osuyrfn-firahf.lock -> aoc_2021_06/target/debug/incremental/aoc_2021_06-dwggzqwq4o5e/s-gd6pq9xevt-6f4cn0.lock
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd6osotrd8-287nqv-1my42bihzotpw/dep-graph.bin
+	deleted:    aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd6osotrd8-287nqv-1my42bihzotpw/query-cache.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd8lvqtha8-3i324g-976jp5lwz10d/dep-graph.bin
+	new file:   aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd8lvqtha8-3i324g-976jp5lwz10d/query-cache.bin
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd6osotrd8-287nqv-1my42bihzotpw/work-products.bin -> aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd8lvqtha8-3i324g-976jp5lwz10d/work-products.bin
+	renamed:    aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd6osotrd8-287nqv.lock -> aoc_2021_06/target/debug/incremental/aoc_2021_06-p4rwhv81io02/s-gd8lvqtha8-3i324g.lock
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	gitlog.txt
+
